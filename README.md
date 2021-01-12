@@ -10,17 +10,9 @@ Live Preview: https://jordankzf.github.io/somnium-deepdream-art/index.html
 
 <img src="images/homepage.png">
 
-**Homepage**
-
 <img src="images/upload.png">
 
-**Upload**
-
 <img src="images/FAQ.png">
-
-**FAQ**
-
-
 
 # Testing Results
 
