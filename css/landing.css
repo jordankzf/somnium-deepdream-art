@@ -1,0 +1,221 @@
+body {
+  padding-top: 4em;
+  font-family: sans-serif;
+  background: #895bb7; /* Old browsers */
+  background: #895bb7; /* Old browsers */
+  background: -moz-linear-gradient(top, #895bb7 0%, #781a89 49%, #935fad 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #895bb7 0%,#781a89 49%,#935fad 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #051937 0%,#004d7a 49%,#00bf72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#895bb7', endColorstr='#935fad',GradientType=0 ); /* IE6-9 */
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  background: linear-gradient(0deg, #6bd6c2, #efe373);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 20s linear infinite;
+  -moz-animation: AnimationName 20s linear infinite;
+  -o-animation: AnimationName 20s linear infinite;
+  animation: AnimationName 20s linear infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+
+
+footer small {
+  color: grey;
+  font-size: 0.6em;
+}
+
+header {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  color: white;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  margin-top: 0em;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.8em;
+}
+
+hr {
+  color: #d2d2d2;
+  background-color: #d2d2d2;
+  height: 0.5px;
+}
+
+section {
+  margin: 0;
+  overflow: auto;
+}
+
+table th {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 2em;
+	padding-bottom: 1em;
+}
+
+.card {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-repeat: repeat;
+  width: 50%;
+  padding: 1em;
+  margin: 1em;
+  overflow: auto;
+  float: left;
+}
+
+.card-description {
+  width: 40%;
+  float: right;
+  padding-top: 2em;
+}
+
+.card-description li {
+  color: #a970b5;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2em;
+  list-style: none;
+  margin-top: 3em;
+  text-align: center;
+  
+}
+
+.card-introduction {
+  margin: 2em;
+  overflow: auto;
+  
+}
+
+.upload-instructions {
+  display: inline-block;
+  float: left;
+  width: 60%;
+  table-layout: fixed; 
+}
+
+.upload-instructions dt {
+  color: #6bd6c2;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.2em;
+  list-style: none;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.upload-instructions dd {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.dreamcatcher {
+  padding-top: 2em;
+  float: right;
+  display: inline-block;
+  table-layout: fixed;
+  width: 40%;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.dreamcatcher img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 35%;
+}
+
+.faq {
+  padding-top: 6em;
+  float: right;
+  display: inline-block;
+  table-layout: fixed;
+  width: 40%;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.faq img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.logo {
+  width: 40%;
+}
+
+.transparent {
+  padding-top: 0em;
+  padding-bottom: 1em;
+  background: white;
+  background-size: 800% 800%;
+}
+
+
+.transparent h3 {
+  color: white;
+  font-size: 2em;
+}
+
+.transparent li {
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.4em;
+  list-style: none;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.white {
+  background: white;
+  padding-top: 3em;
+}

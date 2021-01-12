@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Somnium</title>
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Spectral|Zilla+Slab" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/landing.css">
+  <link rel="stylesheet" type="text/css" href="css/navbar.css">
+ <script>
+	var input = ["family","guineapig","waterfall","architecture"];
+	var style = ["lamuse","princessrain","thescream","tsunami"];
+	var i = 0;
+	var j = 0;
+	var renew = setInterval(function(){
+		if(i == input.length){
+			i = 0;
+			if(j == style.length - 1){
+				j = 0;
+			} else {
+				j++;
+			}
+		}
+		else {
+		document.getElementById("input").src = "images/source/" + input[i] + ".jpg";
+		document.getElementById("style").src = "images/style/" + style[j] + ".jpg";
+		document.getElementById("output").src = "images/output/" + style[j] + "/" + input[i] + ".jpg"; 
+		i++;
+		}
+
+	},2000);
+</script>
+</head>
+
+<body>
+  <header>
+    <img src="images/resources/logo.png" class="logo"/>
+    <h2>Art, painted by AI.</h2>
+  </header>
+ <div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="upload.html">Upload</a>
+  <a href="faq.html">FAQ</a>
+</div> 
+  <section id="home" class="white">
+    <h3>Generate beautiful paintings with the power of machine learning</h3>
+    <div class="card-introduction">
+      <div class="card">
+		<table style="margin: 20px 0px 20px 50px;">
+			<tr>
+				<th>Input</th>
+				<th></th>
+				<th>Style</th>
+				<th></th>
+				<th>Output</th>
+			</tr>
+			
+			<tr>
+				<td><img id="input" src="images/source/architecture.jpg" height="160" width="200"></td>
+				<td>+</td>
+				<td><img id="style" src="images/style/lamuse.jpg" height="160" width="200"></td>
+				<td>=</td>
+				<td><img id="output" src="images/output/lamuse/architecture.jpg" height="160" width="200"></td>
+			</tr>
+		</table> 
+
+      </div>
+      <div class="card-description">
+        <li>Upload an image</li>
+        <li>Choose an art style</li>
+        <li>See the magic unfold</li>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2018 Somnium - All Rights Reserved.</p>
+    <small>A website created in partial fulfillment of WEB1203</small>
+  </footer>
+</body>
+</html>
