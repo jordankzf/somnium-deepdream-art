@@ -6,6 +6,22 @@ Using HTML & CSS, I created this dynamic mockup website to showcase art generate
 
 Live Preview: https://jordankzf.github.io/somnium-deepdream-art/index.html
 
+# Storyboard
+
+<img src="images/homepage.png">
+
+**Homepage**
+
+<img src="images/upload.png">
+
+**Upload**
+
+<img src="images/FAQ.png">
+
+**FAQ**
+
+
+
 # Testing Results
 
 | No | Test Condition | Expected Result | Actual Results | Remarks |
